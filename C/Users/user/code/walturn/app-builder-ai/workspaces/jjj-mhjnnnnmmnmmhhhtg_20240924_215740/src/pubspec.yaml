@@ -1,0 +1,21 @@
+name: counter_app
+description: A Flutter application that uses the Cubit pattern for state management to implement a counter app. The counter value multiplies by 10 every time the increment button is pressed.
+version: 1.0.0
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  bloc: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^8.0.0
+  mocktail: ^0.1.0
+
+flutter:
+  uses-material-design: true
